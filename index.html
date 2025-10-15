@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+  <!-- Immediately redirect (not a 301 header; client-side) -->
+  <meta http-equiv="refresh" content="0;url=http://104.237.9.130/FF/students_dash.php">
+  <script>
+    // JS fallback: in case meta refresh is ignored, do a safe location replace
+    window.location.replace("http://104.237.9.130/FF/students_dash.php");
+  </script>
+  <style>
+    body { font-family: Arial, sans-serif; text-align:center; padding:40px; }
+    .box { max-width:600px; margin:0 auto; }
+    a.button{ display:inline-block; margin-top:20px; padding:12px 18px; text-decoration:none; border-radius:6px; background:#007bff; color:#fff;}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Redirecting to students dashboard…</h1>
+    <p>If your browser doesn't redirect automatically, <a href="http://104.237.9.130/FF/students_dash.php">click here</a>.</p>
+    <p><a class="button" href="http://104.237.9.130/FF/students_dash.php">Go now</a></p>
+  </div>
+</body>
+</html>
